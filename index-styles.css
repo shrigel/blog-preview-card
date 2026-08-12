@@ -27,7 +27,57 @@ main {
     border: 1px solid black;
 }
 
-.card .thumbnail {
+.thumbnail {
     width: 100%;
     border-radius: 10px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+}
+
+.date {
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 500;
+    color: hsl(0, 0%, 7%);
+}
+
+.title {
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+}
+
+.subtitle {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+}
+
+.writer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.writer img {
+    width: 32px;
+}
+
+.writer h1 {
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 800;
 }
