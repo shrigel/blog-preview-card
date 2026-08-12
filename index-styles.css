@@ -1,3 +1,10 @@
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-950: hsl(0, 0%, 7%);
+}
+
 .attribution {
     font-size: 0.6875rem;
     text-align: center;
@@ -8,7 +15,7 @@
 }
 
 body {
-    background-color: hsl(47, 88%, 63%);
+    background-color: var(--yellow);
     font-family: 'Figtree', sans-serif;
 }
 
@@ -20,70 +27,70 @@ main {
 }
 
 .card {
-    max-width: 336px;
-    padding: 24px;
-    background-color: white;
-    border-radius: 20px;
-    border: 1px solid hsl(0, 0%, 7%);
-    box-shadow: 8px 8px rgba(0, 0, 0, 1);
+    width: min(100%, 21rem);
+    padding: 1.5rem;
+    background-color: var(--white);
+    border-radius: 1.25rem;
+    border: 0.0625rem solid var(--gray-950);
+    box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 1);
 }
 
 .thumbnail {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0.625rem;
 }
 
 .tag {
     display: inline-block;
-    background-color: hsl(47, 88%, 63%);
-    padding: 4px 12px;
-    border-radius: 4px;
-    font-size: 14px;
+    background-color: var(--yellow);
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
     line-height: 150%;
     font-weight: 800;
-    color: hsl(0, 0%, 7%);
+    color: var(--gray-950);
 }
 
 .date {
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 150%;
     font-weight: 500;
-    color: hsl(0, 0%, 7%);
+    color: var(--gray-950);
 }
 
 .title {
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 150%;
     font-weight: 800;
-    color: hsl(0, 0%, 7%);
+    color: var(--gray-950);
 }
 
 .title:hover {
     cursor: pointer;
-    color: hsl(47, 88%, 63%);
+    color: var(--yellow);
 }
 
 .subtitle {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
     font-weight: 500;
-    color: hsl(0, 0%, 42%);
+    color: var(--gray-500);
 }
 
 .writer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 12px;
+    gap: 0.75rem;
 }
 
 .writer img {
-    width: 32px;
+    width: 2rem;
 }
 
 .writer h1 {
-    color: hsl(0, 0%, 7%);
-    font-size: 14px;
+    color: var(--gray-950);
+    font-size: 0.875rem;
     line-height: 150%;
     font-weight: 800;
 }
