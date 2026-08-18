@@ -15,7 +15,10 @@ This is my solution to the **Blog Preview Card** challenge on Frontend Mentor. T
 
 - Semantic HTML5
 - CSS3
+- Flexbox
+- CSS Custom Properties
 - Google Fonts (Figtree)
+- Responsive Design
 
 ## Layout
 
